@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PropertyService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8040/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8040/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8040/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Restaurant_Management" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPropertyService_AddProperty_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddProperty" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_AddProperty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPropertyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_DeleteProperty_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProperty" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_DeleteProperty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePropertyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_GetProperty_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProperty" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_GetProperty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPropertyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_GetProperties_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProperties" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_GetProperties_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPropertiesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_UpdateProperty_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateProperty" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_UpdateProperty_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePropertyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_getPropertyPhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPropertyPhoto" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_getPropertyPhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPropertyPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ItemImageDto">
+    <wsdl:part name="parameters" element="tns:ItemImageDto" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_UploadImage_OutputMessage" />
+  <wsdl:message name="IPropertyService_getPropertyBycategory_InputMessage">
+    <wsdl:part name="parameters" element="tns:getPropertyBycategory" />
+  </wsdl:message>
+  <wsdl:message name="IPropertyService_getPropertyBycategory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getPropertyBycategoryResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPropertyService">
+    <wsdl:operation name="AddProperty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/AddProperty" message="tns:IPropertyService_AddProperty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/AddPropertyResponse" message="tns:IPropertyService_AddProperty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProperty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/DeleteProperty" message="tns:IPropertyService_DeleteProperty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/DeletePropertyResponse" message="tns:IPropertyService_DeleteProperty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProperty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/GetProperty" message="tns:IPropertyService_GetProperty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/GetPropertyResponse" message="tns:IPropertyService_GetProperty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/GetProperties" message="tns:IPropertyService_GetProperties_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/GetPropertiesResponse" message="tns:IPropertyService_GetProperties_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProperty">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/UpdateProperty" message="tns:IPropertyService_UpdateProperty_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/UpdatePropertyResponse" message="tns:IPropertyService_UpdateProperty_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropertyPhoto">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/getPropertyPhoto" message="tns:IPropertyService_getPropertyPhoto_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/getPropertyPhotoResponse" message="tns:IPropertyService_getPropertyPhoto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/UploadImage" name="ItemImageDto" message="tns:ItemImageDto" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/UploadImageResponse" message="tns:IPropertyService_UploadImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getPropertyBycategory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IPropertyService/getPropertyBycategory" message="tns:IPropertyService_getPropertyBycategory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IPropertyService/getPropertyBycategoryResponse" message="tns:IPropertyService_getPropertyBycategory_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPropertyService" type="tns:IPropertyService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddProperty">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/AddProperty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteProperty">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/DeleteProperty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperty">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/GetProperty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProperties">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/GetProperties" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProperty">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/UpdateProperty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPropertyPhoto">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/getPropertyPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadImage">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/UploadImage" style="document" />
+      <wsdl:input name="ItemImageDto">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPropertyBycategory">
+      <soap:operation soapAction="http://tempuri.org/IPropertyService/getPropertyBycategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PropertyService">
+    <wsdl:port name="BasicHttpBinding_IPropertyService" binding="tns:BasicHttpBinding_IPropertyService">
+      <soap:address location="http://localhost:8040/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

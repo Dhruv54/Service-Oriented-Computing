@@ -1,0 +1,197 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #F8F9FB !important
+}
+
+.container-fluid {
+    margin-top: 101px;
+    color: #000 !important
+}
+
+.card {
+    background-color: #F8F9FB !important
+}
+
+p {
+    font-size: calc(12px + (14 - 12) * ((100vw - 360px) / (1600 - 360))) !important;
+    display: flex;
+}
+
+h3 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.color-text {
+    color: #757575 !important
+}
+
+footer {
+    color: #caced1 !important;
+    width:100vw;
+    overflow:hidden;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.Careers {
+    cursor: pointer;
+    color: #1E88E5
+}
+
+.row-1 {
+    background-color: #1E242A !important
+}
+
+.row-2 {
+    background-color: #28323C !important
+}
+
+.card {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 50px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.food_section .box {
+    position: relative;
+    margin-top: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /*color: #ffffff;*/
+    border-radius: 15px;
+    overflow: hidden;
+    /*background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);*/
+    background: linear-gradient(to bottom, #222831 25px, #f1f2f3 25px);
+}
+
+    .food_section .box .img-box {
+        /*background: #f1f2f3;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 215px;
+        /*border-radius: 45px 45px 45px 0;*/
+        margin: -1px;
+        padding: 25px;
+    }
+
+        .food_section .box .img-box img {
+            max-width: 100%;
+            max-height: 145px;
+            -webkit-transition: all .2s;
+            transition: all .2s;
+        }
+
+    .food_section .box .detail-box {
+        padding: 25px;
+    }
+
+        .food_section .box .detail-box h5 {
+            font-weight: 600;
+        }
+
+        .food_section .box .detail-box p {
+            font-size: 15px;
+        }
+
+        .food_section .box .detail-box h6 {
+            margin-top: 10px;
+        }
+
+    .food_section .box .options {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+        .food_section .box .options  {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            color: #ffffff;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+            .food_section .box .options {
+                background: #f8ae0f;
+            }
+
+.itemDetail {
+    margin-top: 45px;
+}
+
+.heading_container {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+}
+
+.food_section .box:hover .img-box img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.food_section .btn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+    .food_section .btn-box  {
+        display: inline-block;
+        padding: 10px 55px;
+        color: #ffffff;
+        border-radius: 45px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        border: none;
+        text-decoration: none;
+    }
+
+        .food_section .btn-box a:hover {
+            background-color: #e69c00;
+        }
+
+.itemDetail label {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.itemDetail span {
+    font-size: 20px;
+}

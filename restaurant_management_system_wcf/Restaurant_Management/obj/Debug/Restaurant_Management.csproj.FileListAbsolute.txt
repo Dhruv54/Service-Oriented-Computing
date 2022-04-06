@@ -1,0 +1,75 @@
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.dll.config
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.dll
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.pdb
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CoreCompileInputs.cache
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.dll
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.pdb
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.dll
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.SqlServer.dll
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.xml
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.SqlServer.xml
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CopyComplete
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.AssemblyReference.cache
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.init.resources
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.GenerateResource.cache
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.addrolecolumn.resources
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.ordertable.resources
+E:\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.addstatuscolumn.resources
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.dll.config
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.dll
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\Restaurant_Management.pdb
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.dll
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.SqlServer.dll
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.xml
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\bin\EntityFramework.SqlServer.xml
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.AssemblyReference.cache
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.init.resources
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.addrolecolumn.resources
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.ordertable.resources
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.addstatuscolumn.resources
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.GenerateResource.cache
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CoreCompileInputs.cache
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CopyComplete
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.dll
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.pdb
+D:\document\project\Restaurant Management\Restaurant_Management\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.addimage.resources
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.pdb
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll.config
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.pdb
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.dll
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.dll
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.xml
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.xml
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CoreCompileInputs.cache
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CopyComplete
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.InitialCreate.resources
+C:\Users\Dhruv j Patel\Desktop\New folder\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.GenerateResource.cache
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll.config
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.pdb
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.dll
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.dll
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.xml
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.xml
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CoreCompileInputs.cache
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CopyComplete
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.pdb
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.InitialCreate.resources
+C:\Users\Dhruv j Patel\Desktop\wcf\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.GenerateResource.cache
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll.config
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\Restaurant_Management.pdb
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.dll
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.dll
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.xml
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\bin\EntityFramework.SqlServer.xml
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.AssemblyReference.cache
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.Migrations.InitialCreate.resources
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.GenerateResource.cache
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CoreCompileInputs.cache
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.csproj.CopyComplete
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.dll
+C:\Users\Dhruv j Patel\Desktop\wcff\restaurant_management_system_wcf\Restaurant_Management\obj\Debug\Restaurant_Management.pdb
